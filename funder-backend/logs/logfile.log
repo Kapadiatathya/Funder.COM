@@ -1,0 +1,564 @@
+2023-11-22T18:31:57.347-04:00  INFO 22912 --- [restartedMain] c.a.f.FunderBackendApplication           : Starting FunderBackendApplication using Java 17.0.9 with PID 22912 (D:\ASDC Code\New folder\Group19\funder-backend\target\classes started by kapad in D:\ASDC Code\New folder\Group19\funder-backend)
+2023-11-22T18:31:57.359-04:00  INFO 22912 --- [restartedMain] c.a.f.FunderBackendApplication           : The following 1 profile is active: "dev"
+2023-11-22T18:31:57.439-04:00  INFO 22912 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kapad\.m2\repository\io\grpc\grpc-alts\1.46.0\grpc-alts-1.46.0.jar referenced one or more files that do not exist: file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-auth-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-grpclb-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-protobuf-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-stub-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/protobuf-java-util-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/protobuf-java-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-auth-library-oauth2-http-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-netty-shaded-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-core-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-protobuf-lite-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-api-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-http-client-gson-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-http-client-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/opencensus-contrib-http-util-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/guava-31.0.1-android.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-auth-library-credentials-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/error_prone_annotations-2.10.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/jsr305-3.0.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/failureaccess-1.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/checker-qual-3.12.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/j2objc-annotations-1.3.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/auto-value-annotations-1.8.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/perfmark-api-0.25.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/opencensus-api-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-context-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/gson-2.8.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/annotations-4.1.1.4.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/httpclient-4.5.13.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/httpcore-4.4.15.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/commons-logging-1.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/commons-codec-1.11.jar
+2023-11-22T18:32:00.801-04:00  INFO 22912 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kapad\.m2\repository\io\grpc\grpc-netty-shaded\1.46.0\grpc-netty-shaded-1.46.0.jar referenced one or more files that do not exist: file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/grpc-core-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/grpc-api-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/guava-31.0.1-android.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/error_prone_annotations-2.10.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/perfmark-api-0.25.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/failureaccess-1.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/jsr305-3.0.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/checker-qual-3.12.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/j2objc-annotations-1.3.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/gson-2.8.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/annotations-4.1.1.4.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/grpc-context-1.46.0.jar
+2023-11-22T18:32:00.802-04:00  INFO 22912 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kapad\.m2\repository\io\grpc\grpc-xds\1.46.0\grpc-xds-1.46.0.jar referenced one or more files that do not exist: file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-services-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-alts-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/opencensus-proto-0.2.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-grpclb-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-protobuf-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-stub-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-netty-shaded-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-core-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-auth-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/protobuf-java-util-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-auth-library-oauth2-http-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-http-client-gson-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/gson-2.8.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/re2j-1.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/bcpkix-jdk15on-1.67.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/auto-value-annotations-1.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-protobuf-lite-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-api-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-http-client-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/opencensus-contrib-http-util-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/guava-31.0.1-android.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/jsr305-3.0.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/protobuf-java-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/error_prone_annotations-2.10.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/annotations-4.1.1.4.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/perfmark-api-0.25.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-auth-library-credentials-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/bcprov-jdk15on-1.67.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/j2objc-annotations-1.3.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/opencensus-api-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-context-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/failureaccess-1.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/checker-qual-3.12.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/httpclient-4.5.13.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/httpcore-4.4.15.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/commons-logging-1.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/commons-codec-1.11.jar
+2023-11-22T18:32:00.803-04:00  INFO 22912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22T18:32:00.803-04:00  INFO 22912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22T18:32:15.245-04:00  INFO 22912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-22T18:32:15.374-04:00  INFO 22912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 6 JPA repository interfaces.
+2023-11-22T18:32:17.647-04:00  INFO 22912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-22T18:32:17.667-04:00  INFO 22912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22T18:32:17.668-04:00  INFO 22912 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-22T18:32:17.806-04:00  INFO 22912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22T18:32:17.807-04:00  INFO 22912 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17002 ms
+2023-11-22T18:32:18.062-04:00  INFO 22912 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22T18:32:18.244-04:00  INFO 22912 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-22T18:32:18.249-04:00  INFO 22912 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-22T18:32:18.539-04:00  INFO 22912 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-22T18:32:18.773-04:00  INFO 22912 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-22T18:32:18.818-04:00  INFO 22912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-22T18:32:19.187-04:00  INFO 22912 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@117997ba
+2023-11-22T18:32:19.190-04:00  INFO 22912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-22T18:32:19.300-04:00  WARN 22912 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-22T18:32:19.781-04:00  INFO 22912 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-22T18:32:20.816-04:00  INFO 22912 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-22T18:32:20.976-04:00  INFO 22912 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22T18:32:21.478-04:00  INFO 22912 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-22T18:32:22.732-04:00  WARN 22912 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22T18:32:23.171-04:00  INFO 22912 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3fdf9787, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7eba39c9, org.springframework.security.web.context.SecurityContextHolderFilter@28ff8372, org.springframework.security.web.header.HeaderWriterFilter@78db90f5, org.springframework.web.filter.CorsFilter@7a43c2ee, org.springframework.security.web.authentication.logout.LogoutFilter@6b3b2c07, com.asdc.funderbackend.util.JwtAuthenticationFilter@338b8acc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3156f286, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@640aa40c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36e11a2f, org.springframework.security.web.session.SessionManagementFilter@44d8816c, org.springframework.security.web.access.ExceptionTranslationFilter@6fa6cefe, org.springframework.security.web.access.intercept.AuthorizationFilter@fc9cdb8]
+2023-11-22T18:32:23.544-04:00  INFO 22912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22T18:32:23.599-04:00  INFO 22912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-22T18:32:23.613-04:00  INFO 22912 --- [restartedMain] c.a.f.FunderBackendApplication           : Started FunderBackendApplication in 28.957 seconds (process running for 30.473)
+2023-11-22T19:04:35.974-04:00  INFO 1224 --- [restartedMain] c.a.f.FunderBackendApplication           : Starting FunderBackendApplication using Java 17.0.9 with PID 1224 (D:\ASDC Code\New folder\Group19\funder-backend\target\classes started by kapad in D:\ASDC Code\New folder\Group19\funder-backend)
+2023-11-22T19:04:36.016-04:00  INFO 1224 --- [restartedMain] c.a.f.FunderBackendApplication           : The following 1 profile is active: "dev"
+2023-11-22T19:04:36.159-04:00  INFO 1224 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kapad\.m2\repository\io\grpc\grpc-alts\1.46.0\grpc-alts-1.46.0.jar referenced one or more files that do not exist: file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-auth-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-grpclb-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-protobuf-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-stub-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/protobuf-java-util-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/protobuf-java-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-auth-library-oauth2-http-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-netty-shaded-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-core-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-protobuf-lite-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-api-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-http-client-gson-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-http-client-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/opencensus-contrib-http-util-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/guava-31.0.1-android.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/google-auth-library-credentials-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/error_prone_annotations-2.10.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/jsr305-3.0.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/failureaccess-1.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/checker-qual-3.12.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/j2objc-annotations-1.3.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/auto-value-annotations-1.8.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/perfmark-api-0.25.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/opencensus-api-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/grpc-context-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/gson-2.8.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/annotations-4.1.1.4.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/httpclient-4.5.13.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/httpcore-4.4.15.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/commons-logging-1.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-alts/1.46.0/commons-codec-1.11.jar
+2023-11-22T19:04:36.203-04:00  INFO 1224 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kapad\.m2\repository\io\grpc\grpc-netty-shaded\1.46.0\grpc-netty-shaded-1.46.0.jar referenced one or more files that do not exist: file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/grpc-core-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/grpc-api-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/guava-31.0.1-android.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/error_prone_annotations-2.10.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/perfmark-api-0.25.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/failureaccess-1.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/jsr305-3.0.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/checker-qual-3.12.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/j2objc-annotations-1.3.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/gson-2.8.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/annotations-4.1.1.4.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-netty-shaded/1.46.0/grpc-context-1.46.0.jar
+2023-11-22T19:04:36.204-04:00  INFO 1224 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kapad\.m2\repository\io\grpc\grpc-xds\1.46.0\grpc-xds-1.46.0.jar referenced one or more files that do not exist: file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-services-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-alts-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/opencensus-proto-0.2.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-grpclb-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-protobuf-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-stub-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-netty-shaded-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-core-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-auth-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/protobuf-java-util-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-auth-library-oauth2-http-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-http-client-gson-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/gson-2.8.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/re2j-1.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/bcpkix-jdk15on-1.67.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/auto-value-annotations-1.9.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-protobuf-lite-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-api-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-http-client-1.41.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/opencensus-contrib-http-util-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/guava-31.0.1-android.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/jsr305-3.0.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/protobuf-java-3.19.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/error_prone_annotations-2.10.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/annotations-4.1.1.4.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/perfmark-api-0.25.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/google-auth-library-credentials-1.4.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/bcprov-jdk15on-1.67.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/j2objc-annotations-1.3.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/opencensus-api-0.28.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/grpc-context-1.46.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/failureaccess-1.0.1.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/checker-qual-3.12.0.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/httpclient-4.5.13.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/httpcore-4.4.15.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/commons-logging-1.2.jar,file:/C:/Users/kapad/.m2/repository/io/grpc/grpc-xds/1.46.0/commons-codec-1.11.jar
+2023-11-22T19:04:36.204-04:00  INFO 1224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22T19:04:36.204-04:00  INFO 1224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22T19:04:38.708-04:00  INFO 1224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-22T19:04:38.819-04:00  INFO 1224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 6 JPA repository interfaces.
+2023-11-22T19:04:40.384-04:00  INFO 1224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-22T19:04:40.402-04:00  INFO 1224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22T19:04:40.403-04:00  INFO 1224 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-22T19:04:40.533-04:00  INFO 1224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22T19:04:40.534-04:00  INFO 1224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4329 ms
+2023-11-22T19:04:40.803-04:00  INFO 1224 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22T19:04:40.905-04:00  INFO 1224 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-22T19:04:40.909-04:00  INFO 1224 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-22T19:04:41.126-04:00  INFO 1224 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-22T19:04:41.312-04:00  INFO 1224 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-22T19:04:41.336-04:00  INFO 1224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-22T19:04:41.598-04:00  INFO 1224 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f06a5f2
+2023-11-22T19:04:41.606-04:00  INFO 1224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-22T19:04:41.764-04:00  WARN 1224 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-22T19:04:42.391-04:00  INFO 1224 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-22T19:04:44.062-04:00  INFO 1224 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-22T19:04:44.296-04:00  INFO 1224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22T19:04:44.825-04:00  INFO 1224 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-22T19:04:45.781-04:00  WARN 1224 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22T19:04:46.151-04:00  INFO 1224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4bd4691c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24ce0e2b, org.springframework.security.web.context.SecurityContextHolderFilter@1ffa01d8, org.springframework.security.web.header.HeaderWriterFilter@53c31d2f, org.springframework.web.filter.CorsFilter@20c86881, org.springframework.security.web.authentication.logout.LogoutFilter@7a7b56a3, com.asdc.funderbackend.util.JwtAuthenticationFilter@600f0d98, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b184f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d8da73c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22cb138b, org.springframework.security.web.session.SessionManagementFilter@383c1ec1, org.springframework.security.web.access.ExceptionTranslationFilter@1f93a0f0, org.springframework.security.web.access.intercept.AuthorizationFilter@16af3b46]
+2023-11-22T19:04:46.485-04:00  INFO 1224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22T19:04:46.539-04:00  INFO 1224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-22T19:04:46.555-04:00  INFO 1224 --- [restartedMain] c.a.f.FunderBackendApplication           : Started FunderBackendApplication in 11.374 seconds (process running for 12.755)
+2023-11-22T19:26:15.691-04:00  INFO 1224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-22T19:26:15.859-04:00  INFO 1224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-22T19:26:16.619-04:00  INFO 1224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 759 ms
+2023-11-22T19:26:17.120-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:26:17.121-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:26:17.933-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:26:19.981-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:26:21.054-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:26:21.055-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:26:21.063-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:26:21.113-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:26:21.131-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:26:21.132-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:26:21.134-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:26:21.178-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:26:34.494-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:26:34.494-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:26:34.498-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:26:34.557-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:26:34.601-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:26:34.601-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:26:34.602-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:26:34.658-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:35:02.044-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:35:02.067-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:35:02.140-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:35:02.402-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:35:02.485-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:35:02.486-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:35:02.487-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:35:02.527-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:35:15.896-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:35:15.899-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:35:15.901-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:35:16.192-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:35:16.234-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:35:16.234-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:35:16.237-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:35:16.286-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:35:36.675-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:35:36.677-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:35:36.678-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:35:37.082-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:35:37.088-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:35:37.089-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:35:37.090-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:35:37.175-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:36:00.400-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:36:00.402-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:36:00.405-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:36:00.474-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:36:00.479-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:36:00.479-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:36:00.480-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:36:00.528-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:36:21.029-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:36:21.029-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:36:21.030-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:36:21.076-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:36:21.081-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:36:21.082-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:36:21.083-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:36:21.139-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:37:48.353-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:37:48.353-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:37:48.481-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:37:48.616-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:37:57.331-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:37:57.332-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:37:57.333-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:37:57.384-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:38:02.342-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:38:02.343-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:38:02.345-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:38:02.629-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:38:19.321-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:38:19.321-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:38:19.322-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:38:19.387-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:38:23.301-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:38:23.301-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:38:23.302-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:38:23.375-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:38:36.298-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:38:36.298-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:38:36.300-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:38:36.344-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:43:38.495-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:43:38.628-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:43:38.749-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:43:39.784-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:43:39.903-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:43:39.904-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:43:40.104-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:43:40.854-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:45:25.205-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:45:25.335-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:45:25.389-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:45:25.598-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:45:25.673-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:45:25.674-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:45:25.675-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:45:25.787-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:46:31.450-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:31.460-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:32.068-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:32.068-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:33.951-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:46:34.577-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:46:43.312-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:43.312-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:43.315-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:46:43.374-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:46:43.389-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:43.390-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:43.392-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:46:43.464-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:46:45.049-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:45.050-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:45.065-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:45.065-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:45.065-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:46:45.106-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:46:45.119-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:45.119-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:45.119-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:45.119-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:45.121-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:46:45.143-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:46:58.135-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:58.135-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:46:58.136-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:58.136-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:46:58.138-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:46:58.162-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:47:00.307-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:00.307-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:00.310-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:00.363-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:00.368-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:00.368-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:00.369-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:00.434-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:05.758-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:10.244-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:47:10.312-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:10.314-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:47:16.040-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:16.041-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:47:16.077-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:16.079-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:47:21.063-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:21.068-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:47:21.108-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:21.111-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:47:25.014-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:25.014-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:25.016-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:25.069-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:25.073-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:25.074-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:25.076-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:25.111-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:26.997-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:26.998-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:26.999-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:27.070-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:27.074-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:27.075-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:27.076-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:27.113-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:33.063-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:33.063-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:33.066-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:33.120-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:33.123-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:33.124-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:33.125-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:33.162-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:36.197-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:36.197-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:36.201-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:36.255-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:36.261-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:36.262-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:36.263-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:36.310-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:43.227-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:43.227-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:43.228-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:43.281-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:47:43.288-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:47:43.289-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:47:43.291-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:47:43.339-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:02.018-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:02.019-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:02.150-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into sendEmail(){}
+2023-11-22T19:48:05.341-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Exit from sendEmail(){}
+2023-11-22T19:48:14.230-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:14.230-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:14.232-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:14.279-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:14.286-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:14.287-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:14.287-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:14.340-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:22.730-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:22.730-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:22.733-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:22.781-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:22.785-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:22.785-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:22.786-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:22.839-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:25.038-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:25.039-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:25.041-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:25.083-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:25.087-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:25.087-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:25.089-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:25.131-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:29.921-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:29.923-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:48:30.028-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:30.030-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:48:30.866-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:30.867-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:48:30.876-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:30.878-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:48:32.776-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:32.779-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:48:32.791-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:32.793-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:48:33.822-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:33.823-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:33.831-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:33.884-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:33.888-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:33.888-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:33.889-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:33.941-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:36.110-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:36.111-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:36.113-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:36.155-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:36.160-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:36.161-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:36.162-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:36.196-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:44.460-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:44.460-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:44.461-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:44.512-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:44.519-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:44.519-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:44.521-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:44.566-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:51.667-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:51.667-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:51.670-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:51.710-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:48:51.713-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:48:51.713-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:48:51.714-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:48:51.750-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:09.984-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:09.984-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:09.986-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:10.034-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:10.038-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:10.038-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:10.039-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:10.099-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:11.343-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:11.343-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:11.343-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:11.343-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:11.348-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:11.368-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:11.368-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:11.375-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:49:11.389-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:11.389-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:11.390-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:11.409-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:49:20.771-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:20.771-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:20.773-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:20.808-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:20.811-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:20.812-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:20.812-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:20.846-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:22.448-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:22.449-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:22.452-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:22.464-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:22.464-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:22.479-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:49:22.486-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:22.486-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:22.486-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:22.486-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:22.488-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:22.519-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:49:27.006-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:27.007-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:27.009-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:27.060-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:27.065-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:27.066-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:27.067-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:27.112-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:30.566-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:30.567-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:30.567-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:30.567-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:30.569-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:30.588-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:30.589-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:30.594-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:49:30.597-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:30.598-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:30.600-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:30.618-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:49:37.851-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:37.851-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:37.853-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:37.894-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:37.897-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:37.897-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:37.898-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:49:37.936-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:49:39.190-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:39.190-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:39.190-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:39.191-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:39.192-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:39.208-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:39.208-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:39.220-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:49:39.226-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:49:39.226-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:49:39.228-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:49:39.246-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:50:20.276-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:20.276-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:20.277-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:20.277-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:20.277-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:50:20.300-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:50:32.305-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:32.306-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:32.306-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:32.306-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:32.307-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:50:32.334-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:50:41.266-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:41.266-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:41.267-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:41.267-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:41.268-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:50:41.292-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:50:59.278-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:59.278-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:50:59.279-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:59.279-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:50:59.280-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:50:59.307-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:51:06.285-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:06.285-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:06.286-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:51:06.289-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:06.289-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:06.313-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:51:17.062-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:17.063-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:22.324-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:22.324-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:22.325-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:51:22.368-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:51:22.372-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:22.372-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:22.373-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:51:22.414-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:51:23.989-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:23.989-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:23.990-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:23.990-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:23.991-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:51:24.011-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:51:24.024-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:24.026-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:51:24.027-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getProductByProductId(){}
+2023-11-22T19:51:24.046-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getProductByProductId(){}
+2023-11-22T19:51:24.046-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:51:24.046-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:52:01.207-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:01.314-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:52:07.923-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:07.924-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:52:53.909-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:53.909-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:52:53.936-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:52:54.117-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:52:54.174-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:54.175-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:52:54.176-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:52:54.212-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:52:58.944-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:58.948-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:52:58.959-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:58.973-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:52:59.696-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:59.698-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:52:59.708-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:52:59.710-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : token is expired
+2023-11-22T19:53:09.110-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:53:09.111-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:53:09.113-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:53:09.166-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:53:09.169-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:53:09.169-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:53:09.171-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:53:09.205-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:53:11.113-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:53:11.113-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:53:11.115-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:53:11.160-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:53:11.164-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:53:11.165-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:53:11.166-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:53:11.219-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:54:26.691-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:26.692-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:54:26.859-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into login(){}
+2023-11-22T19:54:27.311-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Exit from login(){}
+2023-11-22T19:54:29.881-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:29.884-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:54:29.895-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:54:29.937-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:54:30.028-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:30.028-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:54:30.030-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:54:30.071-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:54:34.817-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:34.982-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into getAllInvestedProduct(){}
+2023-11-22T19:54:35.225-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Exit from getAllInvestedProduct(){}
+2023-11-22T19:54:35.232-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:35.249-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into getAllInvestedProduct(){}
+2023-11-22T19:54:35.262-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Exit from getAllInvestedProduct(){}
+2023-11-22T19:54:38.337-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:38.356-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getProductsByUserId(){}
+2023-11-22T19:54:38.369-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getProductsByUserId(){}
+2023-11-22T19:54:38.372-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:38.388-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getProductsByUserId(){}
+2023-11-22T19:54:38.401-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getProductsByUserId(){}
+2023-11-22T19:54:55.094-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:55.118-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Entering into getProductsByUserId(){}
+2023-11-22T19:54:55.129-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.ProductController       : Exit from getProductsByUserId(){}
+2023-11-22T19:54:55.132-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:55.142-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Entering into getProductsByUserId(){}
+2023-11-22T19:54:55.153-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.ProductController       : Exit from getProductsByUserId(){}
+2023-11-22T19:54:59.683-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:59.701-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Entering into getProductsByUserId(){}
+2023-11-22T19:54:59.715-04:00  INFO 1224 --- [http-nio-8080-exec-5] c.a.f.controller.ProductController       : Exit from getProductsByUserId(){}
+2023-11-22T19:54:59.722-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:54:59.778-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Entering into getProductsByUserId(){}
+2023-11-22T19:54:59.797-04:00  INFO 1224 --- [http-nio-8080-exec-2] c.a.f.controller.ProductController       : Exit from getProductsByUserId(){}
+2023-11-22T19:55:11.918-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:55:11.940-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into getAllInvestedProduct(){}
+2023-11-22T19:55:11.969-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Exit from getAllInvestedProduct(){}
+2023-11-22T19:55:11.973-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:55:11.989-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into getAllInvestedProduct(){}
+2023-11-22T19:55:12.003-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Exit from getAllInvestedProduct(){}
+2023-11-22T19:56:03.848-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:03.848-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:56:03.850-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:56:03.891-04:00  INFO 1224 --- [http-nio-8080-exec-1] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:56:03.894-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:03.894-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:56:03.895-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:56:03.935-04:00  INFO 1224 --- [http-nio-8080-exec-3] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:56:10.319-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:10.319-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:56:10.321-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:56:10.371-04:00  INFO 1224 --- [http-nio-8080-exec-7] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:56:10.375-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:10.376-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.util.JwtAuthenticationFilter       : Invalid Header Value !! 
+2023-11-22T19:56:10.377-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Entering into getAllProducts(){}
+2023-11-22T19:56:10.427-04:00  INFO 1224 --- [http-nio-8080-exec-6] c.a.f.controller.ProductController       : Exit from getAllProducts(){}
+2023-11-22T19:56:12.453-04:00  INFO 1224 --- [http-nio-8080-exec-4] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:12.490-04:00  INFO 1224 --- [http-nio-8080-exec-9] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:16.880-04:00  INFO 1224 --- [http-nio-8080-exec-10] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:16.916-04:00  INFO 1224 --- [http-nio-8080-exec-8] c.a.f.controller.UserController          : Entering into doFilterInternal(){}
+2023-11-22T19:56:32.492-04:00  INFO 1224 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22T19:56:32.579-04:00  INFO 1224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-22T19:56:32.596-04:00  INFO 1224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
