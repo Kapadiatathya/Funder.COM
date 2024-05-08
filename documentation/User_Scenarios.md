@@ -29,6 +29,11 @@
 7. Can explore the footer links (About Us, Contact Us, Terms of Use, Privacy Policy, Accessibility).
 8. Do not see the Dashboard option in the navbar since they are not logged in.
 
+![Screenshot 2023-11-26 171942](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/423e0f10-137a-491e-b91a-2d414eeb3f24)
+
+![Screenshot 2023-11-26 173437](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/f2198b22-5090-4101-b784-4800bf203c2d)
+
+![Screenshot 2023-11-26 173027](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/a773d7f0-1590-4dfb-880a-44e0fba992bd)
 
 ### Scenario 2: User Accesses Authorization Features
 
@@ -53,6 +58,13 @@
 7. Can explores the footer links and get the required details.
 8. Can explore the Blogs published on the website.
 
+![Screenshot 2023-11-26 173217](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/c23d7b84-1235-4372-b256-cc59afeac757)
+
+
+![Screenshot 2023-11-26 173118](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/5b884628-1db2-46de-948b-d9621ade4636)
+
+
+![Screenshot 2023-11-26 173250](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/2c3606da-8c43-4939-99b0-ecc881bcb20f)
 
 ### Scenario 4: User Explores the Product List Page
 
@@ -65,6 +77,9 @@
 4. Clicks on a product to view its details.
 
 
+![Screenshot 2023-11-11 223033](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/a25af450-aa91-47d5-a42f-a85073e3a355)
+
+
 ### Scenario 5: User Views Product Details
 
 **User Profile:** Any user (logged in or not).  
@@ -74,6 +89,8 @@
 2. Views product details including amount invested, amount to be raised, date of round closing, equity dilution, and description.
 3. If the user is not logged in -> sees the chat section but can't comment.
 4. If the user is logged in -> can invest in the product and participate in the chat section.
+
+![Screenshot 2023-11-26 173750](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/02f2b6ba-38f1-4176-be2c-406b9ed3fe84)
 
 
 ### Scenario 6: User Invests in a Product
@@ -86,6 +103,11 @@
 3. Proceeds to payment facilitated by Razor Payments.
 4. Completes the payment process.
 
+
+![Screenshot 2023-11-26 173916](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/6d1f3f65-9f03-499f-9a1f-7641c2c3727a)
+
+
+![Screenshot 2023-11-26 174917](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/74ec01be-7759-4255-a2e3-4cdca2395e79)
 
 ### Scenario 7: User Explores Dashboards
 
@@ -104,6 +126,13 @@
 4. Filters products based on different criteria like date,amount etc. Applicable for both Founder and Investor dashboard.
 
 
+![Screenshot 2023-11-26 174410](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/5e3806dd-7c71-4ee6-bf17-a3060923e0c6)
+![Screenshot 2023-11-26 174500](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/36590700-79cb-4372-b5f1-0d06a6280176)
+![Screenshot 2023-11-26 174712](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/79d738fa-afe8-4aca-9027-2e9994273f8b)
+![Screenshot 2023-11-26 174817](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/20a353ce-264c-4e66-aea4-a99bd8dcff41)
+![Screenshot 2023-11-26 174846](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/1f583136-c877-493e-87c8-92e44bab86c6)
+
+
 ### Scenario 8: User Explores Blogs Page
 
 **User Profile:** Any user (logged in or not).  
@@ -112,6 +141,10 @@
 1. Navigates to the Blogs page(avialble on the home page).
 2. Views the list of blogs related to different product categories.
 3. Clicks on a blog to read the description and view the product image.
+
+
+![Screenshot 2023-11-26 175011](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/c0367d61-c172-4ce7-a242-db485105f0c9)
+![Screenshot 2023-11-26 175125](https://github.com/Kapadiatathya/Funder.COM/assets/72372720/35277779-c6e9-418b-b94a-beb103241690)
 
 
 [**Go back to README.md**](../README.md)
